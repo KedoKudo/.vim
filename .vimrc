@@ -93,6 +93,10 @@ endif
 " Start NERDTree automatically upon starting vim
 autocmd vimenter * NERDTree
 " autocmd vimenter * TlistToggle
+" set indent guide line
+au VimEnter * IndentGuidesEnable
+hi IndentGuidesOdd  ctermbg=black
+hi IndentGuidesEven ctermbg=darkgrey
 
 " Open NERDTree automatically when no file specified
 " autocmd vimenter * if !argc() | NERDTree | endif
