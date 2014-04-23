@@ -86,10 +86,10 @@ set expandtab
 " set color scheme for VIM
 if has("gui_macvim")
   syntax on
-  colorscheme molokai
+  colorscheme github
 else
   syntax on
-  colorscheme molokai
+  colorscheme github
 endif
 
 " Start NERDTree automatically upon starting vim
