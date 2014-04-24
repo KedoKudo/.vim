@@ -1,0 +1,17 @@
+##
+# a collection of user defined alias
+#
+alias ls='ls -FG'
+alias ll='ls -lh'
+alias la='ls -alh'
+alias lsd='ls -rtlh'
+alias du='du -h'
+alias ds='df -h'
+alias cat='cat -n'
+alias grep='grep --color=always'
+alias tail='tail -f'
+alias m2u="tr '\015' '\012' " #EOF mac->unix
+alias u2m="tr '\012' '\015' " #EOF unix->mac
+alias cdiff='colordiff' # diff with color output
+alias ping='ping -c 5' # stop after sending count ECHO_REQUEST packets
+alias edit='vim'
