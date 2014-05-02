@@ -15,3 +15,4 @@ alias u2m="tr '\012' '\015' " #EOF unix->mac
 alias cdiff='colordiff' # diff with color output
 alias ping='ping -c 5' # stop after sending count ECHO_REQUEST packets
 alias edit='vim'
+alias vi='vim'
