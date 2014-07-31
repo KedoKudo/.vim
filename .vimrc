@@ -76,11 +76,11 @@ set confirm
 set cmdheight=2
 
 " Display line numbers on the left
-set number 
+set number
 
-" Indentation setting for using 2 spaces instead of tabs
-set shiftwidth=2
-set softtabstop=2
+" Indentation setting for using 4 spaces instead of tabs
+set shiftwidth=4
+set softtabstop=4
 set expandtab
 
 " set color scheme for VIM
