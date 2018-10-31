@@ -22,3 +22,6 @@ alias telemann="ssh b224538@telemann.xray.aps.anl.gov"
 alias orthrosa="ssh b224538@orthrosa.xray.aps.anl.gov"
 alias orthros="ssh b224538@orthros"
 alias erkel="ssh b224538@erkel"
+
+# -- jupyter related --# 
+alias startJupyter='jupyter lab --no-browser --port=5708 &'
