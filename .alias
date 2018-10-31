@@ -18,3 +18,5 @@ alias vi='vim'
 alias starwar='telnet towel.blinkenlights.nl'
 alias pipup='pip freeze --local | grep -v '^\-e' | cut -d = -f 1  | xargs -n1 pip install -U'
 alias qstatHPCC="ssh zhangc43@hpcc.msu.edu 'MataHari'"
+alias telemann="ssh b224538@telemann.xray.aps.anl.gov"
+alias telemann="ssh b224538@orthrosa.xray.aps.anl.gov"
